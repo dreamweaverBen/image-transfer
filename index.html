@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>灰度图片转换器</title>
+    <link rel="stylesheet" href="imgTransfer.css" />
+</head>
+<body>
+
+<div class="head">
+    <span class="head-title">灰度图片转换器</span>
+</div>
+<div class="content">
+
+    <div class="content-left borderBox">
+        <h3>
+            <span>原图片：</span>
+        </h3>
+        <div class="img-wrapper" id="originImg">
+            <p>请将图片拖入此框中...</p>
+            <img src="javascript:void(0)" style="display:none" />
+            <p class="warn">您的浏览器不支持相关功能！</p>
+        </div>
+    </div>
+
+    <div class="content-center borderBox">
+        <button type="button">转换</button>
+    </div>
+
+    <div class="content-right borderBox">
+        <h3>
+            <span>灰度图片：</span>
+        </h3>
+        <div class="img-wrapper" id="grayImg">
+            <p>提示：鼠标悬停在图片中，右键可以保存图片...</p>
+            <!--<img src="javascript:void(0)" />-->
+        </div>
+    </div>
+</div>
+
+<script src="imgTransfer.js"></script>
+
+</body>
+</html>
